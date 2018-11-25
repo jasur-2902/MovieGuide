@@ -14,10 +14,12 @@ public class Api {
     }
 
     public static String getPosterPath(String posterPath) {
-        return BASE_POSTER_PATH + posterPath;
+        String result = BASE_POSTER_PATH + posterPath;
+        return result;
     }
 
     public static String getBackdropPath(String backdropPath) {
-        return BASR_BACKDROP_PATH + backdropPath;
+        String result = BASR_BACKDROP_PATH + backdropPath;
+        return result;
     }
 }
